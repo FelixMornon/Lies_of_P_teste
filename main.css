@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Estilização do cabeçalho*/
+header {
+    background-color: black;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: red;
+    font-weight: normal;
+    font-size: 50px;
+    font-family: 'Lavishly Yours', cursive;
+    margin: 8px 8px;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 16px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+/*Um ao lado do outro(img e txt)*/
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    font-family: 'Playfair Display', serif;
+}
+
+img {
+    height: 350px;
+    margin-right: 16px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 28px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
